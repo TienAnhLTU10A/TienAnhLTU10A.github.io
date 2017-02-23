@@ -1,0 +1,54 @@
+.main-content{
+	background-color:black;
+	font-family:Arial;
+	font-size:0.6875em ;
+	color:#595959;
+}
+		
+#left {	
+	padding: 20px;
+    width:45%;
+    float:left;
+	}
+	
+.image-blockleft {	
+    width:250px;
+    float:left;
+	}
+
+.image-blockright {	
+    width:350px;
+    float:left;
+	text-align:left;
+	}
+
+.item{
+	margin-right:10px;
+	text-decoration: underline;
+}
+
+#right {	
+	padding: 20px;
+    width:45%;
+    float:right;
+	}
+	
+.right-panel{
+	float:left;
+	min-height:400px;
+	width:200px;
+	background:#232326;
+	border-radius: 10px;
+	padding: 20px;
+}
+	
+.more-info{
+	color:white;
+	display:block;
+	margin-top: 25px;
+}
+.more-info::before{
+	content: url("arr_1.gif");
+	margin-right:5px;
+}
+		
