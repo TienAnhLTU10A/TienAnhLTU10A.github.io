@@ -1,0 +1,19 @@
+#img {
+	width:480px;
+	height:495px;
+	position: relative;		
+}
+#imgShow {
+	float:center;
+}
+#priveousImg{
+	float:left;
+}
+#nextImg{
+	float:right;
+}
+
+#btIndex {
+	margin-top:10px;
+	text-align:center;
+}

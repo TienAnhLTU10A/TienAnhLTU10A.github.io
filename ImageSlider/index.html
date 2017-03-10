@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Image Slider</title>
+		<link type="text/css" href="css/stylesheet.css" rel="stylesheet"/>
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+	<body>	
+		<div id="content">
+			<div id="img">
+				<div>
+					<input id="priveousImg" type="button" name="btPriveous" value="previous" onclick="loadPriveousImage ()"/>				
+					<img id="imgShow" name="1"  src="image/1.png" alt="servant"/>	
+					<input id="nextImg" type="button" name="btNext" value="next" onclick="loadNextImage ()"/>
+				</div>
+				<div id="btIndex">
+					<input id="1" type="button" name="btIndex" value="1" onclick="loadImgById(1)"/>
+					<input id="2" type="button" name="btIndex" value="2" onclick="loadImgById(2)"/>
+					<input id="3" type="button" name="btIndex" value="3" onclick="loadImgById(3)"/>
+					<input id="4" type="button" name="btIndex" value="4" onclick="loadImgById(4)"/>
+					<input id="5" type="button" name="btIndex" value="5" onclick="loadImgById(5)"/>
+				</div>				
+			</div>			
+		</div>
+		<script type="text/javascript">
+			setInterval(loadNextImage,3000);
+		</script>
+	</body>
+</html>
