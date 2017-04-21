@@ -1,0 +1,16 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+canvas#myCanvas {
+	margin: 20px auto;
+	border: 2px solid #73AD21;
+	display: block;
+	width: 500px;
+	height: 500px;
+	margin: 40px auto;
+}
+img#monster-img {
+	display: none;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calendar</title>
+		<Link href="css/stylesheet.css" type="text/css" rel="stylesheet">
+		<script src="js/script.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div id="output">
+			<input type="text" id="calendar_value"/>
+			<div id="img" onclick="load()"><img  src="calendar.jpg" alt="calendar img"/></div>	
+		</div>
+		<div id="calendar" >
+			<div>
+				<center>
+					<div class="select"><input type="button" name="preYear" value="<<" onclick="previousYear()"/></div>
+					<div class="select"><input type="button" name="preMonth" value="<" onclick="previousMonth()"/></div>
+					<div class="select1">
+						<select id="selectMonth" onchange="loadDay()">	
+						</select>
+					</div>
+					<div class="select"  >
+						<select id="selectYear" onchange="loadDay()"></select>
+					</div>
+					<div class="select"><input type="button" name="nextMonth" value=">" onclick="nextMonth()"/></div>
+					<div class="select"><input type="button" name="nextYear" value=">>" onclick="nextYear()"/></div>
+				</center>
+			</div>
+			<div>				
+				<div class="cell">Mon</div>
+				<div class="cell">Tue</div>
+				<div class="cell">Wes</div>
+				<div class="cell">Thu</div>
+				<div class="cell">Fri</div>
+				<div class="cell1">Sat</div>
+				<div class="cell1">Sun</div>
+			</div>
+			<div id="days"></div>
+		</div>
+	</body>
+</html>
